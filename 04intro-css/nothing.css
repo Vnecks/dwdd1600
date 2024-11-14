@@ -1,0 +1,134 @@
+body
+
+      .afacad-flux-uniqueValue {
+    font-family: "Afacad Flux", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+
+/* header stuff */ 
+header {
+         background-color: #87a2ff;
+         padding: 1rem 2%;
+}
+
+header h1 { 
+            margin: 0; 
+            color: white;
+}   
+
+/* nav stuff */ 
+nav { 
+      background-color: #c4d7ff;
+      text-align: center;
+}
+
+ nav ul {
+          list-style-type: none;
+          padding: 0;
+          margin: 0;
+          display: flex;
+          text-align: center;
+			 margin-left: 0;
+}
+
+nav a {  
+        font-size: 1.1rem;
+        text-decoration: none; 
+        font-weight: 600; 
+        display: block; 
+        color: white;
+        padding: .83rem 2rem;
+}
+
+nav li.active a { 
+					   background-color: #fff4b5;
+                 color: #87a2ff;
+}
+
+nav a:hover {
+              color: #ffd7c4;
+}
+
+/* main stuff */
+main {
+       padding: 1rem 2%;
+}
+
+main h1 { 
+          color: #87a2ff;
+}
+
+main h2 {
+			 color: #87a2ff;
+			 margin: .2rem;
+}
+
+main p {
+         color: #2F3133;
+         margin-bottom: .3rem;
+}
+
+main ul {
+			 padding: .5rem 3%;
+          background-color: #fff4b5;
+          list-style-type: circle;
+}
+
+main ul li {
+    			 line-height: 125%;
+				 margin-bottom: .5rem;
+}
+
+main address { 
+       			 font-style: normal;
+					 background-color: #c4d7ff;
+					 padding: .5rem;
+					 width: 12.5rem;
+					 border: 1px solid #87a2ff;
+					 border-radius: .5rem;
+}
+
+main a {
+		   color: #0000FF;
+}
+
+main a:hover { 
+				   color: #ffd7c4;
+}
+
+main ol {
+			 padding: .5rem 3%;
+			 background-color: #fff4b5;
+}
+
+main dl dt {
+				 color: #87a2ff;
+			    font-weight: 600;
+}
+
+main dl dd {
+				 color: #000000;
+			    font-size: .9rem;
+}
+
+/* footer stuff */ 
+footer { 
+			background-color: #87a2ff;
+			text-align: center;
+			color: white;
+			padding: .3rem 0;
+			font-size: .8rem;
+			margin-top: 1rem;
+}
+
+footer a {
+			  color: #0000FF;
+}
+
+
+
+
+
